@@ -79,7 +79,7 @@ Alternatively,You can go directly to Chrome extension Page/dashboard by typing *
 
 
 
-# Setting up backend was which was written in PHP etc.
+# Setting up backend which was written in PHP etc.
 
 
 
