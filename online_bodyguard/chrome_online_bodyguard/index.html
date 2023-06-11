@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+<title>  Online Body Guard </title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="landing page, website design" />
+  <script src="scripts/jquery.min.js"></script>
+
+  <script src="scripts/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="scripts/bootstrap.min.css">
+
+<script src="scripts/app_script.js"></script>
+<link type="text/css" rel="stylesheet" href="scripts/store.css">
+
+
+</head>
+<body>
+
+
+
+<div class="text-center">
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navgator">
+        <span class="navbar-header-collapse-color icon-bar"></span>
+        <span class="navbar-header-collapse-color icon-bar"></span>
+        <span class="navbar-header-collapse-color icon-bar"></span> 
+        <span class="navbar-header-collapse-color icon-bar"></span>                       
+      </button>
+     
+<li class="navbar-brand home_click imagelogo_li_remove" ><img class="img-rounded imagelogo_data" src="logo.png"></li>
+    </div>
+    <div class="collapse navbar-collapse" id="navgator">
+    </div>
+  </div>
+
+
+
+</nav>
+
+
+    </div><br />
+
+
+
+
+<div style='width:100vw; height: 100vh;  min-height:600px;'>
+ 
+
+
+<hr style="margin-top:1.5em">
+<div style="text-align:center"><a href="#">.</a></div>
+
+
+<div class='row'>
+
+<center><h2> Online Body Guard</h2></center>
+
+<div class='col-sm-12'>
+
+A chrome Extension <b>Standalone and Builtin</b>(Dual Purpose Interface) App that protects and verifies Your data againts <b>malicious url link Clicking,
+ use of Breached Email Address, Breached Password or
+ Phone Numbers etc.</b> that might lead to the compromise of your entire System/Networks.<br>
+             <center><h2>Dual Purpose Interface App</h2></center>
+
+
+1.) As a chrome Extension <b>Standalone App</b>,  It Protects and Verify your Data that across all Social Networks like <b>Gmail, Facebook, Instagram, TikTok, Twitter etc.</b> without leaving 
+<b>Gmail, Facebook, Instagram, TikTok, Twitter etc. website respectively.</b><br>
+The Application runs natively within and inside each of the above mentioned Social Network  or any other configured website<br><br>
+
+<b style='color:green'>For instance, Each time your open your Facebook App, Gmail etc. from a Chrome Browser,the application will automatically popup and runs
+ natively as a standalone app within each of the site.</b><br><br>
+
+
+2.) As a Chrome Extension <b>Builtin App</b>, the App runs directly from Chrome Browser by accessing the App from Chrome Extension Icon on the Chrome Browser.
+
+
+
+
+<br><br>  Protecting Your Data Everywhere You Go...... 
+
+</div></div><br>
+
+
+
+
+
+
+<div class='row'>
+<div class='guard col-sm-3'>
+
+<br>
+<b style='font-size:20px;'>URL Link Verifier</b> <br><br>
+&nbsp;&nbsp;&nbsp;Easily Check, Verify and Detect All Malicious URL Links across all Social Media and Websites<br>
+<br>
+
+
+<button Class='guardx'  data-toggle="modal" data-target="#myModal_url"  title="Verify Now">Verify URL Now</button>
+
+</div>
+
+
+
+<div class='guard col-sm-3'>
+
+<br>
+<b style='font-size:20px;'>Email Verifier</b> <br><br>
+&nbsp;&nbsp;&nbsp;Always Verify that Your Email Address has not been tampered with. Check, if Your Email Address has been breached....<br>
+<br>
+
+
+<button Class='guardx'  data-toggle="modal" data-target="#myModal_email"  title="Verify Now">Verify Email Now</button>
+
+</div>
+
+
+
+
+<div class='guard col-sm-3'>
+
+<br>
+<b style='font-size:20px;'>Phone Number Verifier</b> <br><br>
+&nbsp;&nbsp;&nbsp;Always Verify that Your Phone Number has not been tampered with. Check, if Your Phone Number has been breached....<br>
+<br>
+
+
+<button Class='guardx'  data-toggle="modal" data-target="#myModal_phoneno"  title="Verify Now">Verify PhoneNo. Now</button>
+
+</div>
+
+
+
+
+
+<div class='guard col-sm-3'>
+
+<br>
+<b style='font-size:20px;'>Password Verifier</b> <br><br>
+&nbsp;&nbsp;&nbsp;Always Verify that Your Password has not been tampered with. Check, if Your Password has been breached....<br>
+<br>
+
+
+<button Class='guardx'  data-toggle="modal" data-target="#myModal_password"  title="Verify Now">Verify Password Now</button>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- url  Modal start -->
+
+
+
+<div id="myModal_url" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header"  style='background: #008080;color:white;padding:10px;'>
+        <h4 class="modal-title">URL Link Verifier</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+
+ <div class="form-group">
+              <label> Enter URL Link to Check: </label>
+              <input type="text" class="col-sm-12 form-control" id="url" name="url" placeholder="Enter URL">
+            </div>
+<br><br>
+
+ <div class="form-group">
+						<div id="loader_url"></div>
+                        <div id="result_url" class="myform_clean_url"></div>
+                    </div>
+
+                    <input type="button" id="url_btn" class="pull-right btn btn-primary url_btn" value="Check Now" />
+
+
+      </div>
+<br><br>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- url Modal ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Email Modal starts -->
+
+<div id="myModal_email" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header"  style='background: #008080;color:white;padding:10px;'>
+        <h4 class="modal-title">Email Verifier</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+
+ <div class="form-group">
+              <label> Enter Email to Check: </label>
+              <input type="text" class="col-sm-12 form-control" id="email" name="email" placeholder="Enter Email to Check">
+            </div>
+<br><br>
+
+ <div class="form-group">
+						<div id="loader_email"></div>
+                        <div id="result_email" class="myform_clean_email"></div>
+                    </div>
+
+                    <input type="button" id="email_btn" class="pull-right btn btn-primary email_btn" value="Check Now" />
+
+
+      </div>
+<br><br>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Email Modal ends -->
+
+
+
+
+
+
+
+
+
+
+<!--phoneno Modal starts -->
+
+<div id="myModal_phoneno" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header"  style='background: #008080;color:white;padding:10px;'>
+        <h4 class="modal-title">Phone Number Verifier</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+
+ <div class="form-group">
+              <label> Enter Phone Number to Check: </label>
+              <input type="text" class="col-sm-12 form-control" id="phoneno" name="phoneno" placeholder="Enter Phone Number to Check">
+            </div>
+<br><br>
+
+ <div class="form-group">
+						<div id="loader_phoneno"></div>
+                        <div id="result_phoneno" class="myform_clean_phoneno"></div>
+                    </div>
+
+                    <input type="button" id="phoneno_btn" class="pull-right btn btn-primary phoneno_btn" value="Check Now" />
+
+
+      </div>
+<br><br>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- phoneno Modal ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--password Modal starts -->
+
+<div id="myModal_password" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header"  style='background: #008080;color:white;padding:10px;'>
+        <h4 class="modal-title">Password Verifier</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+
+ <div class="form-group">
+              <label> Enter Password to Check: </label>
+              <input type="password" class="col-sm-12 form-control" id="pass" name="pass" placeholder="Enter Password to Check">
+            </div>
+<br>
+
+
+
+ <div class="form-group">
+              <label>Confirm Password: </label>
+              <input type="password" class="col-sm-12 form-control" id="pass_confirm" name="pass_confirm" placeholder="Confirm Password">
+            </div>
+<br>
+
+
+ <div class="form-group">
+              <label>Select Password Hash Type: </label><br>
+             
+
+
+<input type="radio" class="hash_type" name="hash_type" value="md5" /> MD5  <br>
+<input type="radio" class="hash_type" name="hash_type" value="sha1" /> SHA1<br>
+<input type="radio" class="hash_type" name="hash_type" value="sha256" /> SHA256<br>
+
+
+            </div>
+
+
+
+ <div class="form-group">
+						<div id="loader_password"></div>
+                        <div id="result_password" class="myform_clean_password"></div>
+                    </div>
+                    <input type="button" id="password_btn" class="pull-right btn btn-primary password_btn" value="Check Now" />
+
+
+      </div>
+<br><br>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- password Modal ends -->
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

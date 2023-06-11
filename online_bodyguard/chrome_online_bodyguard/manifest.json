@@ -1,0 +1,22 @@
+{
+  "name": "Online BodyGuard",
+  "description": "Protecting Your Data across all Social Networks like Facebook, Instagram, TikTok, Twitter etc.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["webNavigation"],
+  "action": { "default_popup": "popup.html",
+ "default_icon": {
+
+    "16": "/images/get_started16.png"
+
+    }
+
+ },
+"background": { "service_worker": "background.js" }
+}
+
+
+
+
+
+
