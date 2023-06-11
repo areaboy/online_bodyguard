@@ -61,45 +61,45 @@ await chrome.windows.create({
 ```
 
 
-For instance, url https://twitter.com/ tells the Chrome Apps to run natively as a standalone app on that site each time the Url is accessed. 
-To make the Chrome run natively on all twitter url, you should add asterisk to the url something like https://twitter.com/*.
+For instance, url **https://twitter.com/** tells the Chrome Apps to run natively as a standalone app on that site each time the Url is accessed. 
+To make the Chrome run natively on all twitter url, you should add asterisk **(*)** to the url something like https://twitter.com/*.
 
-You can try More URL Matching based on the Site where you want the Chrome to popup/run natively.
-
-
-
-2.) open chrome browser. goto Manage Extension --Click on Load Unpacked --> Select chrome_online_bodyguard folder. Ensure that it gets loaded.
- You will see the Chrome extension app(online_bodyguard) within the Chrome Extension Dashboard
-
-Remember, whenever you edit any of the Chrome Extension apps script, always click on Reload/Refresh icon on the side of the app within the Chrome extension Page.
+You can try More **URL Matching** based on the Site where you want the Chrome to popup/run natively.
 
 
 
-Alternatively,You can go directly to Chrome extension Page/dashboard by typing chrome://extensions/ at the chrome browser url
+2.) open chrome browser. goto **Manage Extension --Click on Load Unpacked --> Select chrome_online_bodyguard** folder. Ensure that it gets loaded.
+ You will see the Chrome extension app(**online_bodyguard**) within the Chrome Extension Dashboard
+
+Remember, whenever you edit any of the Chrome Extension apps script, always click on **Reload/Refresh** icon on the side of the app within the Chrome extension Page/Dashboard.
 
 
 
- Setting up backend was written in PHP etc.
+Alternatively,You can go directly to Chrome extension Page/dashboard by typing **chrome://extensions/** at the chrome browser url
 
 
 
-3.)You will need to install Xampp Server. After installation, ensure that PHP has been started and Running from Xampp Control Panel.
-
-
-4.) copy main application folder online_bodyguard which contains the backend Code to htdocs of the Xammp server. Eg. C:\xampp\htdocs\online_bodyguard
+# Setting up backend was which was written in PHP etc.
 
 
 
-5.) Edit Settings.php to update your Pangea User Intel and Vaults Intel  Access Token  where appropriates and you are done with backend.  Its is time to test the app.
+3.)You will need to install **Xampp Server**. After installation, ensure that **PHP** is installed and that **Apache Server** has been started and Running from Xampp Control Panel.
 
 
-6.) To access the app as a Builtin Chrome Extension App, Callup the Chrome Browser, Locate Chrome Extension Icon and click on online_bodyguard Apps on Chrome Browser 
-and application will start running. Thanks.. 
+4.) copy main application folder **online_bodyguard** which contains the backend Code to **htdocs** of the Xammp server. Eg. **C:\xampp\htdocs\online_bodyguard**
 
 
-To Access the app as a Standalone Chrome Extension App, Try accessing any of  the configure Social networks site url like  https://twitter.com/,  https://www.instagram.com/ etc.
- and you will see the app automatically Popup and running natively inside Twitter or Instagram site respectively. As a Standalone app, You can drag the app to any
- direction, Maximize It, Minimize it and even close it when not needed.
+
+5.) Edit **Settings.php** to update your **Pangea User Intel and URL Intel  Access Token**  where appropriates and you are done with backend.  Its is time to test the app.
+
+
+6.) To access the app as a **Builtin** Chrome Extension App, Callup the Chrome Browser, Locate Chrome Extension Icon and click on **online_bodyguard** Apps on Chrome Browser and application will start running. Thanks.. 
+
+
+To Access the app as a **Standalone** Chrome Extension App, Try accessing any of  the configured Social networks site url like  **https://twitter.com/,  https://www.instagram.com/ etc.**
+ and you will see the app automatically Popup and running natively inside **Twitter or Instagram** site respectively.
+ 
+ As a Standalone app, You can drag the app to any direction, Maximize It, Minimize it and even close it when not needed within the site.
 
 
 
@@ -107,12 +107,13 @@ To Access the app as a Standalone Chrome Extension App, Try accessing any of  th
 
 Just a Tip.
 
-How I Integrate Pangea User Intel and URL Intel API respectively within Online Body Guard System
+# How I Integrate Pangea User Intel and URL Intel API respectively within Online Body Guard System
 
 
 1.) Verification/Checking of URL Links for Malicious/Suspicious Intent leverages Pangea Url Intel API.
 
 https://pangea.cloud/docs/api/url-intel#reputation
+
 
 2.) Verification/Checking of Users Email Address, Phone Numbers, Password for data Breaches/compromise leverages Pangea User Intel API.
 
