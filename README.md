@@ -28,17 +28,16 @@ the main application folder.  The **Chrome_online_bodyguard** is the chrome Exte
 # Setting Chrome Extension Front End
 
 
-1.) Once You Download the Code from Github, copy chrome_online_bodyguard folder which contains frontend Chrome Extension Codes to any folder/directory of your choice.
+1.) Once You Download the Code from Github, copy **chrome_online_bodyguard** folder which contains frontend Chrome Extension Codes to any folder/directory of your choice.
 
-At chrome_online_bodyguard folder. goto script folder, then open app_script.js and edit the web URL(Eg. http://localhost/online_bodyguard/) in each Jquery-Ajax Code 
+At **chrome_online_bodyguard** folder. goto **scrip**t folder, then open **app_script.js** and edit the web URL(Eg. http://localhost/online_bodyguard/) in each of the  Jquery-Ajax Code 
 to ensure it points to the actual php backend Codes based on your site URL.
 
 
 
-Optionally, You can also Locate and edit background.js file if its necessary as per code below to add or reove more URL link or better leave it the way it is.
+**Optionally**, You can also Locate and edit **background.js** file if its necessary as per code below to add or reove more URL link or better leave it the way it is.
 
- As Chrome Extension Standalone App, Each time your open your Facebook, Gmail Instagram, Twitter App etc. from a Chrome Browser,
-the application will automatically popup and runs natively as a standalone app within each of the listed site url below
+ As Chrome Extension **Standalone App**, Each time your open your **Facebook, Gmail, Instagram, Twitter Site etc.** from a Chrome Browser,  the application will automatically popup and runs natively as a standalone app within each of the listed site url below
 
 chrome.webNavigation.onCompleted.addListener(
   async () => {
