@@ -57,7 +57,8 @@ await chrome.windows.create({
 { urlMatches: 'https://twitter.com/' },
 { urlMatches: 'https://www.tiktok.com/*' },
   ] },
-);```
+);
+```
 
 
 For instance, url https://twitter.com/ tells the Chrome Apps to run natively as a standalone app on that site each time the Url is accessed. 
