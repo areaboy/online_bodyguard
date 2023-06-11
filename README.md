@@ -39,7 +39,7 @@ to ensure it points to the actual php backend Codes based on your site URL.
 
  As Chrome Extension **Standalone App**, Each time your open your **Facebook, Gmail, Instagram, Twitter Site etc.** from a Chrome Browser,  the application will automatically popup and runs natively as a standalone app within each of the listed site url below
 
-chrome.webNavigation.onCompleted.addListener(
+```chrome.webNavigation.onCompleted.addListener(
   async () => {
 await chrome.windows.create({
     url: chrome.runtime.getURL('index.html'),
@@ -57,7 +57,7 @@ await chrome.windows.create({
 { urlMatches: 'https://twitter.com/' },
 { urlMatches: 'https://www.tiktok.com/*' },
   ] },
-);
+);```
 
 
 For instance, url https://twitter.com/ tells the Chrome Apps to run natively as a standalone app on that site each time the Url is accessed. 
